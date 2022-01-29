@@ -1,0 +1,30 @@
+{
+    "name": "1-cli-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index",
+        "start:dev": "nodemon index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vanek2002020/node-1-CLI-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vanek2002020/node-1-CLI-app/issues"
+    },
+    "homepage": "https://github.com/vanek2002020/node-1-CLI-app#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "commander": "^8.3.0",
+        "nanoid": "^3.1.32",
+        "yargs": "^17.3.1"
+    }
+}
